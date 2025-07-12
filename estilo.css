@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.filme {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 15px;
+}
+
+.filme img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.faixa-etaria {
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.faixa-verde { background-color: green; }
+.faixa-amarela { background-color: goldenrod; }
+.faixa-vermelha { background-color: red; }
